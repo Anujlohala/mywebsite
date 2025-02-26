@@ -57,7 +57,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li>
-            <a href="#hero"
+            <a href="#home"
               ><i class="bi bi-house navicon"></i><span>Home</span></a
             >
           </li>
@@ -158,62 +158,93 @@
           <div class="row justify-content-between gy-4 mt-4">
             <div class="col-lg-8" data-aos="fade-up">
               <div class="portfolio-description">
-                <h2>Suitcase Day - Overview</h2>
+                <h2>Plieger Suitcase Day – Power BI Dashboard</h2>
                 <p>
-                  This Power BI dashboard provides insights into the
-                  turnover and sales performance across different regions in the
+                  This Power BI dashboard provides insights into the turnover
+                  and sales performance across different regions in the
                   Netherlands during the "Plieger Suitcase Day" event. It
                   includes key performance indicators (KPIs), regional sales
                   comparisons, and stock tracking, enabling decision-makers to
                   analyze business performance effectively.
                 </p>
-                <p>
-                  Amet consequatur qui dolore veniam voluptatem voluptatem sit.
-                  Non aspernatur atque natus ut cum nam et. Praesentium error
-                  dolores rerum minus sequi quia veritatis eum. Eos et doloribus
-                  doloremque nesciunt molestiae laboriosam.
-                </p>
+                <hr>
 
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Export tempor illum tamen malis malis eram quae irure
-                      esse labore quem cillum quid cillum eram malis quorum
-                      velit fore eram velit sunt aliqua noster fugiat irure amet
-                      legam anim culpa.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <div>
-                    <img
-                      src="assets/img/testimonials/testimonials-2.jpg"
-                      class="testimonial-img"
-                      alt=""
-                    />
-                    <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
-                  </div>
-                </div>
-
+                <h2>Key Features</h2>
                 <p>
-                  Impedit ipsum quae et aliquid doloribus et voluptatem quasi.
-                  Perspiciatis occaecati earum et magnam animi. Quibusdam non
-                  qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque
-                  minus deserunt assumenda tempore. Delectus voluptas
-                  necessitatibus est.
+                  <b>KPIs (Key Performance Indicators)</b><br />
+                  - Turnover: €1,811,873<br />
+                  - No. of Items Sold: 310,337
                 </p>
 
                 <p>
-                  Sunt voluptatum sapiente facilis quo odio aut ipsum repellat
-                  debitis. Molestiae et autem libero. Explicabo et quod
-                  necessitatibus similique quis dolor eum. Numquam eaque
-                  praesentium rem et qui nesciunt.
+                  <b>Turnover Per FTE Leaderboard</b><br />
+                  - Displays a ranking of regions based on revenue per full-time
+                  equivalent (FTE).<br />
+                  - Top Performing Region: Oost-Nederland (€15,266.91 per FTE),
+                  followed by Noord-Nederland and Noord-Brabant.
                 </p>
+
+                <p>
+                  <b>Regional Sales & Hourly Sales</b><br />
+                  - Users can switch between "Region Sales" and "Hourly Sales"
+                  using bookmarks.<br />
+                  - The bar chart titled “Omzet per Regio” (Revenue per Region)
+                  showcases turnover by region.<br />
+                  - Region 04 has the highest revenue (€458,007), while Region
+                  00 has the lowest (€13,862).
+                </p>
+
+                <p>
+                  <b>Stock Tracking</b><br />
+                  - Visualizes remaining stock, with 152,729 units left out of a
+                  maximum value of 463,066.<br />
+                  - Provides an easy-to-read representation of inventory levels
+                  during the event.
+                </p>
+
+                <p>
+                  <b>Real-Time Data Update</b><br />
+                  - The dashboard includes a timestamp (Data Up To: 23:16:40),
+                  indicating when the data was last updated.
+                </p>
+                <hr>
+                <h2>Power BI Techniques Used</h2>
+                <p>
+                  - Data Modeling: Ensured optimized relationships between
+                  sales, inventory, and regional data.
+                </p>
+                <p>
+                  - DAX Measures: Created calculated fields for turnover per
+                  FTE, ranking, and KPI metrics.
+                </p>
+                <p>
+                  - Bookmarks & Navigation: Implemented to switch between
+                  "Region Sales" and "Hourly Sales" views.
+                </p>
+                <p>
+                  - Custom Visualizations: Used a cylindrical gauge chart for
+                  inventory tracking.
+                </p>
+                <p>
+                  - Conditional Formatting: Applied in the ranking table for
+                  visual emphasis on top-performing regions.
+                </p>
+                <hr>
+
+                <h2>Portfolio Value</h2>
+                <p>
+                  This dashboard is a great showcase of data visualization,
+                  interactivity, and business intelligence techniques in Power
+                  BI. It highlights the ability to present complex sales and
+                  stock data in an intuitive and visually appealing manner,
+                  making it useful for business performance tracking and
+                  decision-making.
+                </p>
+                
               </div>
             </div>
 
-            <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <!-- <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
               <div class="portfolio-info">
                 <h3>Project information</h3>
                 <ul>
@@ -230,7 +261,7 @@
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -238,8 +269,8 @@
     </main>
 
     <footer id="footer" class="footer position-relative light-background">
-      <div class="container">
-        <h3 class="sitename">Brandon Johnson</h3>
+      <!-- <div class="container">
+        <h3 class="sitename">Anuj Lohala</h3>
         <p>
           Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
           eligendi fuga maxime saepe commodi placeat.
@@ -250,22 +281,22 @@
           <a href=""><i class="bi bi-instagram"></i></a>
           <a href=""><i class="bi bi-skype"></i></a>
           <a href=""><i class="bi bi-linkedin"></i></a>
-        </div>
+        </div> -->
         <div class="container">
           <div class="copyright">
             <span>Copyright</span>
-            <strong class="px-1 sitename">Alex Smith</strong>
+            <strong class="px-1 sitename">Anuj Lohala</strong>
             <span>All Rights Reserved</span>
           </div>
-          <div class="credits">
+          <!-- <div class="credits"> -->
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you've purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by
+            <!-- Designed by
             <a href="https://bootstrapmade.com/">BootstrapMade</a> Distribuited
             by <a href="https://themewagon.com">ThemeWagon</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
